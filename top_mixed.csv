@@ -1,0 +1,11 @@
+rule,coef,support,impact
+procedure_code_99214 <= 0.5 & procedure_code_99239 <= 0.5 & procedure_code_99309 > 0.5 & procedure_code_99213 <= 0.5 & procedure_code_99233 <= 0.5,3.8450691437379576,0.03588941053729786,0.1379972650439079
+procedure_code_93000 <= 0.5 & procedure_code_99349 > 0.5,13.945668777397898,0.006885758998435055,0.09602651427316236
+procedure_code_99306 <= 0.5 & procedure_code_99213 <= 0.5 & procedure_code_99309 > 0.5 & procedure_code_99215 <= 0.5,2.0985408558007386,0.0332811684924361,0.06984189181016542
+payer_company_Carrier8 <= 0.5 & procedure_code_99214 <= 0.5 & procedure_code_99232 <= 0.5 & procedure_code_99309 > 0.5 & procedure_code_99223 <= 0.5 & procedure_code_99222 <= 0.5 & procedure_code_99213 <= 0.5 & procedure_code_99233 <= 0.5,0.8532395993059918,0.029420970266040687,0.025103136880990053
+procedure_code_93000 <= 0.5 & procedure_code_99309 > 0.5 & procedure_code_99223 <= 0.5,0.3747450743247055,0.0360980699008868,0.013527573887986238
+payer_company_Carrier6 <= 0.5 & procedure_code_99204 <= 0.5 & procedure_code_99291 > 0.5,2.1812805180489927,0.005320813771517997,0.011606187419978991
+payer_company_Carrier14 <= 0.5 & procedure_code_99291 > 0.5,1.3399099587978807,0.004381846635367762,0.00587127994465425
+payer_company_Carrier13 > 0.5 & procedure_code_99291 <= 0.5 & procedure_code_99223 > 0.5,7.195070868569496,0.0007303077725612937,0.005254616179445642
+procedure_code_99215 > 0.5 & payer_company_Carrier8 > 0.5 & payer_company_Carrier15 <= 0.5,11.478396886209252,0.0004173187271778821,0.00479014997859541
+payer_company_Carrier11 <= 0.5 & clinic_Saint Lukes Hospital <= 0.5 & procedure_code_99291 > 0.5,1.262991750583754,0.003755868544600939,0.004743630988107996
