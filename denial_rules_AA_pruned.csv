@@ -1,0 +1,53 @@
+rule,importance,coef,support
+procedure_code_Other,3.098,8.164,1.0
+procedure_code_G0439,2.036,11.688,1.0
+clinic_Northside Clinic <= 0.5,1.981,4.966,0.801
+procedure_code_99308,1.887,8.062,1.0
+procedure_code_99222 <= 0.5 & payer_company_Carrier8 <= 0.5,1.161,2.38,0.611
+procedure_code_99309 <= 0.5 & clinic_Northside Clinic <= 0.5,1.0,2.293,0.745
+clinic_Northside Clinic > 0.5 & physician_npi_1003912809 <= 0.5 & procedure_code_99349 <= 0.5,0.937,2.36,0.196
+procedure_code_99233 <= 0.5 & clinic_Saint Marys Clinic <= 0.5,0.815,1.659,0.594
+payer_company_Carrier12,0.696,3.259,1.0
+payer_company_Carrier18,0.668,3.135,1.0
+payer_company_Carrier7,0.645,3.024,1.0
+payer_company_Carrier17,0.645,3.029,1.0
+payer_company_Medicare,0.641,3.027,1.0
+payer_company_Carrier5,0.57,2.679,1.0
+payer_company_Carrier10,0.516,2.431,1.0
+payer_company_Carrier8,0.478,2.248,1.0
+procedure_code_99232 > 0.5 & clinic_Northside Clinic <= 0.5,0.463,2.075,0.053
+procedure_code_99233 <= 0.5,0.454,0.961,0.666
+payer_company_Carrier13,0.265,1.247,1.0
+payer_company_Carrier19,0.261,1.221,1.0
+payer_company_Carrier6 <= 0.5 & procedure_code_99291 > 0.5,0.222,3.058,0.005
+payer_company_Carrier8 > 0.5 & procedure_code_99215 > 0.5,0.22,12.419,0.0
+procedure_code_99349 > 0.5,0.213,2.497,0.007
+payer_company_Carrier8 > 0.5,0.209,0.983,0.047
+procedure_code_99306 <= 0.5 & clinic_Northside Clinic > 0.5,0.193,0.491,0.19
+clinic_Saint Marys Clinic > 0.5 & procedure_code_99215 > 0.5,0.189,4.151,0.002
+procedure_code_99223 > 0.5 & payer_company_Carrier13 > 0.5,0.159,7.799,0.0
+clinic_Saint Marys Clinic > 0.5,0.144,0.359,0.202
+payer_company_Carrier15,0.126,0.594,1.0
+procedure_code_99291 > 0.5 & payer_company_Carrier14 <= 0.5,0.125,1.872,0.004
+procedure_code_93306 > 0.5 & payer_company_Carrier7 > 0.5,0.125,8.637,0.0
+procedure_code_93306 > 0.5 & clinic_Northside Clinic <= 0.5,0.12,2.405,0.003
+payer_company_Carrier10 > 0.5 & clinic_Northside Clinic <= 0.5,0.117,0.642,0.034
+procedure_code_93306 > 0.5 & payer_company_Carrier3 > 0.5,0.106,4.627,0.001
+procedure_code_93306 > 0.5 & clinic_Saint Marys Clinic > 0.5,0.089,3.073,0.001
+procedure_code_99291 > 0.5 & clinic_Saint Lukes Hospital <= 0.5 & payer_company_Carrier11 <= 0.5,0.084,1.381,0.004
+procedure_code_99291 > 0.5 & clinic_Saint Marys Clinic > 0.5 & payer_company_Carrier5 <= 0.5,0.068,2.956,0.001
+clinic_Saint Marys Clinic,0.064,0.161,1.0
+payer_company_Medicare > 0.5 & procedure_code_99215 > 0.5,0.06,2.939,0.0
+payer_company_Carrier9 <= 0.5 & procedure_code_99291 > 0.5,0.05,0.818,0.004
+payer_company_Carrier3 > 0.5 & procedure_code_99223 > 0.5,0.037,2.089,0.0
+procedure_code_93306 > 0.5 & payer_company_Carrier8 > 0.5,0.033,1.233,0.001
+procedure_code_99223 > 0.5 & payer_company_Carrier12 > 0.5,0.031,1.009,0.001
+procedure_code_93306 > 0.5 & payer_company_Carrier7 > 0.5,0.021,1.166,0.0
+procedure_code_99291 > 0.5 & payer_company_Carrier14 <= 0.5,0.02,0.302,0.004
+payer_company_Carrier15 > 0.5 & procedure_code_93306 > 0.5,0.018,1.278,0.0
+payer_company_Carrier18 > 0.5 & procedure_code_99223 > 0.5,0.006,0.186,0.001
+physician_npi_1457771008 <= 0.5,0.003,0.065,0.998
+physician_npi_1134212053 <= 0.5,0.002,0.05,0.999
+physician_npi_1922069012 > 0.5,0.001,0.017,0.003
+procedure_code_99349 > 0.5,0.0,0.003,0.007
+payer_type_Medicare,0.0,0.0,1.0
